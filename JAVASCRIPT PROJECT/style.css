@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    perspective: 10px;
+}
+.first{
+    position:relative;
+    margin:0 auto;
+    background-color: #ccffff;
+    background-image: url("iris2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-position: ; */
+    height: 40rem;
+}
+.fun{
+    display: flex;
+    position: relative;
+    background-color: aquamarine;
+    height: 40rem;
+    padding: 2rem;
+}
+
